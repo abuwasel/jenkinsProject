@@ -1,11 +1,12 @@
 import time
 import allure
 import pytest
+import unittest
 
-class Demo:
+class Demo(unittest.TestCase):
     @staticmethod
     def test_1():
-        print("Hello object world!")
+        expected = 5
+        actual = 5
+        assert actual == expected
 
-demo = Demo()
-demo.test_1()
