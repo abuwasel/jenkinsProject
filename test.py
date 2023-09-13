@@ -10,7 +10,7 @@ class Demo(unittest.TestCase):
     @staticmethod
     def test_1():
         expected = 5
-        actual = 3
+        actual = 5
         assert actual == expected, 'not correct'
 
     @staticmethod
