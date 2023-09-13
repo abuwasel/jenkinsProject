@@ -19,7 +19,7 @@ class Demo(unittest.TestCase):
         driver.get('https://www.google.com')
         time.sleep(2)
         title = driver.title
-        assert title == 'Googl'
+        assert title == 'Google'
         #driver.find_element(By.CSS_SELECTOR, selector).click()
 
 
